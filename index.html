@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider ||</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">
+        <h1>Image Slider</h1>
+    </div>
+    <div class="container">
+        <img id="my_images" src="./slide1.avif">
+        <div class="buttons" style="display: flex;justify-content: space-between;padding: 6px;border-radius: 8px;margin-top: -35%;">
+            <button id="back" onclick="prevSlide()">back</button>
+            <button id="next" onclick="nextSlide()">next</button>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
